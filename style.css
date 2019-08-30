@@ -1,0 +1,73 @@
+.screenbackground {
+    background-color: white
+}
+
+.volunteer {
+    font-family: Gayathri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 49px;
+    color: #364D2E;
+    text-align: center;
+}
+
+
+}
+.body {
+    font-family: Gayathri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    color: #364D2E;
+}
+.radio,
+.radio1,
+.radio2,
+.radio3 {
+    font-size: medium
+}
+.submit {
+    width: 300px;
+    height: 100px;
+    left: 221px;
+    top: 773px;
+    background: #364D2E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: Cantata One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #E3BC58;
+    text-align: center;
+}
+.footer {
+    font-family: Cantata One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    background-color: #364D2E;
+    color: #E3BC58;
+    text-align: center;
+}
+.asidevolunteer {
+    float: right;
+    width: 30%;
+    height: 300px;
+    /* only for demonstration, should be removed */
+    
+    background: white;
+    padding: 20px;
+    font-family: Gayathri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 29px;
+    color: #364D2E;
+}
