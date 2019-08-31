@@ -1,27 +1,104 @@
-.screenbackground {
-    background-color: white
+    .screenbackground {
+        background-color: white
+    }
 }
-
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+nav {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 2em;
+    font-size: 25px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
 .volunteer {
     font-family: Gayathri;
     font-style: normal;
     font-weight: bold;
-    font-size: 100px;
-    line-height: 49px;
+    font-size: 50px;
+    line-height: 30px;
     color: #364D2E;
     text-align: center;
 }
-
 
 }
 .body {
     font-family: Gayathri;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 37px;
+    font-size: 10px;
+    line-height: 27px;
     /* identical to box height */
-    
     color: #364D2E;
 }
 .radio,
@@ -30,13 +107,56 @@
 .radio3 {
     font-size: medium
 }
+body {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 30px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+    url("https://res.cloudinary.com/laviedegeorge/image/upload/v1567198187/startng/nairo_images/bg-image_vm4qql.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: geometria;
+}
 .submit {
-    width: 300px;
+    width: 200px;
+    height: 50px;
+    left: 221px;
+    top: 773px;
+    background: #364D2E;
+    box-shadow: 0px 4px 4px rgba(0,
+    0,
+    0,
+    0.25);
+    border-radius: 20px;
+    font-family: Cantata One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #E3BC58;
+    text-align: center;
+    float: right;
+}
+.btncancel {
+    width: 100px;
     height: 100px;
     left: 221px;
     top: 773px;
     background: #364D2E;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0,
+    0,
+    0,
+    0.25);
     border-radius: 20px;
     font-family: Cantata One;
     font-style: normal;
@@ -46,12 +166,28 @@
     color: #E3BC58;
     text-align: center;
 }
+.para {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.radiobutton {
+    display: table-column;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 .footer {
     font-family: Cantata One;
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
-    line-height: 36px;
     background-color: #364D2E;
     color: #E3BC58;
     text-align: center;
@@ -61,7 +197,6 @@
     width: 30%;
     height: 300px;
     /* only for demonstration, should be removed */
-    
     background: white;
     padding: 20px;
     font-family: Gayathri;
@@ -71,3 +206,19 @@
     line-height: 29px;
     color: #364D2E;
 }
+
+/* FOR RESPONSIVENESS ON MOBILE */
+@media screen and (max-width: 600px) {
+    .form-style div input.align-left {
+        float: none;
+    }
+    .form-style div input.align-right {
+        float: none;
+    }
+    .form-style div .field-split {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .form-style div {
+        margin-bottom: 0px;
+    }
